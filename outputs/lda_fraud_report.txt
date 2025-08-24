@@ -1,0 +1,33 @@
+Detected target column: Class
+
+Class distribution:
+Class
+0    284315
+1    284315
+Name: count, dtype: int64
+
+Train Accuracy: 0.9889
+
+Test Accuracy: 0.9891
+
+Train ROC-AUC: 0.9995
+
+Test ROC-AUC: 0.9994
+
+Train Confusion Matrix:
+[[226941    511]
+ [  4528 222924]]
+
+Test Confusion Matrix:
+[[56741   122]
+ [ 1118 55745]]
+
+Classification Report (Test):
+              precision    recall  f1-score   support
+
+           0     0.9807    0.9979    0.9892     56863
+           1     0.9978    0.9803    0.9890     56863
+
+    accuracy                         0.9891    113726
+   macro avg     0.9892    0.9891    0.9891    113726
+weighted avg     0.9892    0.9891    0.9891    113726
